@@ -1,0 +1,577 @@
+body{
+    width: 100%;
+    /* background-image: url("image/Rectangle 2.png"); */
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-image: url("../image/Rectangle\ 2.png") ;
+    /* opacity: .5; */
+    transition: opacity .15s linear;
+    width: 100%;
+    height: 880px;
+    background-color: aqua;
+}
+.icon{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    /* background-color: red; */
+    margin-left: 5%;
+    padding-top: 10px;
+}
+.icon .arb{
+    width: 200px;
+    height: 20px;
+    display: inline;
+    /* background-color: red; */
+    float: left;
+    padding: 10px;
+
+}
+.icon .arb i,h3,a{
+    color: white;
+    padding: 4px;
+}
+
+
+.icon .iconfont a{
+float: right;
+background-color: white;
+width: 30px;
+height: 20px;
+border-radius: 5px;
+display: inline;
+padding: 10px;
+margin-right: 10px;
+padding-left: 20px;
+color: #472ad5;
+
+}
+
+.icon .iconfont{
+    width: 300px;
+    height: 30px;
+    /* background-color: red; */
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
+
+.nav{
+    width: 94%;
+    height: 80px;
+    background-color: antiquewhite;
+    margin-left: 3%;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.nav button{
+    width: 140px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 15px;
+    background-color: rgba(223, 129, 63, 0.95);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px rgba(223, 129, 63, 0.95);
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.nav .link{
+
+    width: 500px;
+    height: 50px;
+    /* background-color: black; */
+    margin-left: 200px;
+    /* margin-bottom: 50px; */
+    display: inline;
+}
+.nav .link a{
+color: rgb(53, 51, 51);
+text-decoration: none;
+margin-left: 50px;
+font-size: large;
+
+}
+
+.nav .link a:hover{
+color: chocolate;
+text-decoration: underline;
+
+} 
+
+.nav .nav1{
+float: right;
+margin-right: 50px;
+}
+.center{
+    width: 60%;
+    height: 500px;
+    /* background-color: white; */
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.center .c1{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.center h2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.center h2 span{
+    color: chocolate;
+}
+.center .h3{
+/* text-align: center; */
+margin-left: 60px;
+color: white;
+font-size: 25px;
+}
+
+.center .centericon {
+width: 200px;
+height: 60px;
+color: chocolate;
+font-size: 30px;
+margin-left: 40%;
+border-radius: 5px;
+border: solid 1px white;
+margin-top: 30px;
+/* padding: 10px; */
+}
+
+.header .footer{
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin-left: 5%;
+    /* padding-top: 300px; */
+    margin-top: 140px;
+    border-radius: 10px;
+    
+}
+.footer .num{
+    display: inline;
+    float: left;
+    margin-left: 180px;
+}
+.footer .num h3{
+    color: chocolate;
+    text-align: center;
+    
+}
+.footer .num p{
+    /* margin-left: 10px; */
+    font-size: large;
+}
+
+.header .content{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.content .ima{
+    margin-left: 6%;
+    display: inline;
+    
+}
+.content .text{
+    float: right;
+    width: 500px;
+    height:650px;
+    margin-right: 60px; 
+}
+.content .text h4{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(233, 198, 166);
+    text-align: center;
+    padding: 10px;
+    float: right;
+    margin-right: 70px;
+    color: chocolate;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.content .text h1{
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 80px;
+}
+.content .text p{
+    margin-top: 10px;
+    
+    font-size: 25px;
+    opacity: .7;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.content .list{
+    width: 550px;
+    height: 50px;
+    
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.content .list ul{
+    margin-right: 83px;
+}
+.content .list ul li{
+    /* display: inline-block; */
+    /* padding: 5px; */
+    margin-left: 40px;
+    float: inline-end;
+    direction: rtl;
+    font-size: 22px;
+    
+}
+
+.photo{
+background-image: url("../image/photo1.png");
+width: 100%;
+height: 480px;
+background-color: rgb(25, 26, 35);
+}
+
+.photo h1{
+    padding-top: 100px;
+    margin-left: 400px;
+    font-size: 50px;
+    color: white;
+}
+.photo h1 span{
+    color: chocolate;
+}
+
+.photo p{
+
+font-size: 40px;
+color: white;
+margin-left: 300px;
+margin-right: 320px;
+text-align: center;
+}
+
+.photo .centericon {
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    margin-left: 40%;
+    border-radius: 5px;
+    border: solid 1px chocolate;
+    margin-top: 30px;
+    background-color: chocolate;
+    
+}
+
+.content3{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(219, 225, 231);
+    margin-top: -60px;
+}
+
+.content3 h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+}
+
+.content3 p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -30px;
+}
+/* /////////////////// */
+.content3 .cards{
+margin-top: 60px;
+margin-left: 45px;
+}
+.content3 .cards .card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.content3 .cards .card img{
+
+    padding-left: 28px;
+    padding-top: 28px;
+}
+
+.content3 .cards .card h3{
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.content3 .cards .card p{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+.cards .card a{
+
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+    color: green;
+    text-decoration: none;
+} 
+
+.content3 .cards .centericonbtn {
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    margin-left: 40%;
+    border-radius: 5px;
+    border: solid 1px chocolate;
+    margin-top: 30px;
+    background-color: chocolate;
+    
+    }
+
+.content4{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(187, 107, 50);
+    margin-top: 200px;
+    
+}
+
+.content4 img{
+    margin-top: -150px;
+    margin-left: 60px;
+    padding: 5px;
+    
+}
+
+.content4 .pho1{
+    background-color: gray;
+    width: 350px;
+    height: 410px;
+}
+
+.content5{
+    width:100%;
+    height: 300px;
+    background-color: white;
+    
+}
+
+.form{
+
+    width: 90%;
+    height: 500px;
+    /* margin-left: 2%; */
+    margin-right: 5%;
+    background-color: white;
+    float: right;
+    margin-top: 70px;
+    border-radius: 10px;
+    
+    
+}
+
+.form .half1{
+    width: 51%;
+    height: 500px;
+    background-color: white;
+    /* display: inline; */
+    float: left;
+    border-radius: 10px;
+    border-right: 1px solid silver;
+}
+
+.form .half2{
+    width: 48%;
+    height: 500px;
+    background-color: white;
+    float: right;
+    display: inline;
+    border-radius: 10px;
+}
+
+.form .half2 h1{
+    float: right;
+    margin-right: 40px;
+    
+}
+
+.form .half2 pre{
+    margin-top: -5px;
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+    opacity: .5;
+}
+
+.form .half2 button{
+    margin-top: 300px;
+    margin-left: 520px;
+    margin-top: -50px;
+    width: 50px;
+    height: 50px;
+    background-color:#FFF4E5;
+    border-radius: 5px;
+    border: solid 1px #FFF4E5;
+}
+.form .half2 .mas{
+    margin-top: 30px;
+}
+
+.half2 .numpho h5{
+    margin-left: 460px;
+    margin-top: -200px;
+}
+.half2 .numpho h4{
+    margin-left: 395px;
+    margin-top: -20px;
+}
+.half2 .email h5{
+    margin-left: 440px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.half2 .email h4{
+    margin-left: 390px;
+}
+.half2 .icons{
+    width: 450px;
+    height: 150px;
+    background-color:#FFF4E5;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.half2 .icons a{
+    float: right;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline;
+    padding: 6px;
+    margin-right: 10px;
+    color: #472ad5;
+    margin-top: 80px;
+    
+    }
+.half2 .icons a i{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.icons .allicon{
+    width: 500px;
+    height: 30px;
+    display: inline;
+    float: right;
+    padding-right: 4px;
+    margin-right: 20px;
+    margin-top: -90px;
+}
+.icons h3{
+    padding-top: 40px;
+    color: black;
+    margin-left: 200px;
+}
+.half1 h2{
+    margin-left: 370px;
+}
+.content5 .form .half1 form input,textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.content5 .form .half1 form .name,.mail{
+    margin-left: 19px;
+    width: 250px;
+    height: 30px;
+    padding: 6px;
+}  
+.content5 .form .half1 form .add,.chos{
+    margin-right: 50px;
+    width: 540px;
+    height: 30px;
+    float: right;
+    padding: 8px;
+}
+.content5 .form .half1 form .mess{
+    height: 100px;
+    width: 550px;
+    margin-left: 12px;
+}
+.content5 form button {
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border: solid 1px chocolate;
+    margin-top: 30px;
+    background-color: chocolate;
+    margin-left: 10px;
+}
+.content5 form i{
+    margin-right: 10px;
+}
+.header .foot{
+    width: 100%;
+    height: 300px;
+    background-color: #132238;
+    margin-top: 120px;
+}
+.foot p{
+    margin-left: 70px;
+    color: #A5ACB5;
+    font-size: 17px;
+    padding-top: 220px;
+    /* display: inline; */
+}
+.foot .link{
+    /* padding-right: 150px; */
+    margin-top: 30px;
+    display: inline;
+    margin-left: 550px;
+    
+    
+}
+.foot .link a{
+    text-decoration-line: none;
+    
+}
+.foot img{
+    float: inline-end;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+
+
+
+/* modal-backdrop-show */
